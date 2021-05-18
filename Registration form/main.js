@@ -1,11 +1,11 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDjp93prDRL1Ghr_VWWrkXiRBeShuUWP14",
+    apiKey: "add api key",
     authDomain: "registration-form-52626.firebaseapp.com",
     projectId: "registration-form-52626",
     storageBucket: "registration-form-52626.appspot.com",
     messagingSenderId: "352935736558",
-    appId: "1:352935736558:web:46f75365abf87af4e56fff",
-    measurementId: "G-RNVTMYL668"
+    appId: "add appid",
+    measurementId: //Add id
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
