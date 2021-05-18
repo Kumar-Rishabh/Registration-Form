@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Web Design</title>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	  <link rel="stylesheet" type="text/css" href="register.css">
+   </head>
+	
+	<body>
+		<div class="topnav" id="myTopnav">
+		<a href="#home" class="active">Home</a>
+		<a href="#news">News</a>
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+		</div>	
+			
+		<div class="container">
+			<h1 class="brand"><span>Star</span> Web Design</h1>
+			
+			<div class="wrapper animated bounceInLeft">
+				<div class="company-info">
+					<h3>Star Web Design</h3>
+					<ul>
+						<li><i class="fa fa-address-book" aria-hidden="true"></i>44 somthing street</li>
+						<li><i class="fa fa-phone" aria-hidden="true"></i>555 555-555-5</li>
+						<li><i class="fa fa-envelope-o" aria-hidden="true"></i>teat@test.com</li>
+					</ul>	
+				</div>
+				
+				<div class="contact">
+					<h3>Email us</h3>
+					<div class="alert">Your message was saved</div>
+					<form id="contactform">
+						<p>
+							<label>Name</label>
+							<input type="text" name="name" id="name">
+						</p>
+						<p>
+							<label>Company</label>
+							<input type="text" name="company" id="company">
+						</p>
+						<p>
+							<label>Email Address</label>
+							<input type="email" name="email" id="email">
+						</p>
+						<p>
+							<label>Phone No</label>
+							<input type="text" name="phone" id="phone">
+						</p>
+						<p class="full">
+							<label>Message</label>
+							<textarea name="message" rows="5" id="mess"></textarea>
+						</p>
+						<p class="full">
+							
+							<button type="submit">Submit</button>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+		<script src="main.js"></script>
+	</body>
+<html>	
